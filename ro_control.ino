@@ -139,7 +139,7 @@ class DeliveryPumpControl {
   int sampleCount;
 };
 
-DeliveryPumpControl ro_control(SetPoints(5, 10), SetPoints(60, 65));
+DeliveryPumpControl ro_control(SetPoints(5, 20), SetPoints(60, 65));
 
 void loop() {
   // read the input on analog pin 0:
